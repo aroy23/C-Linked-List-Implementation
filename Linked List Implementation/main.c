@@ -16,7 +16,9 @@ struct Node* createLinkedList(int x);
 int main(void)
 {
     bool first = true;
-    int linkedListElements = 3; // Input how many desired linked list elements
+    int linkedListElements; // Input how many desired linked list elements
+    printf("Enter How Many Elements The Linked List Should Have: ");
+    scanf("%d", &linkedListElements);
     for(struct Node* p = createLinkedList(linkedListElements); p != NULL; p = p->next)
     {
         if(first)
@@ -42,7 +44,7 @@ int main(void)
     }
 }
 
-struct Node* createLinkedList(int n) // Creates a linked lists of n elements with integer values in ascending order starting from 1
+struct Node* createLinkedList(int n) // Creates a linked lists of n integer elements
 {
     if(n <= 0)
     {
