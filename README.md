@@ -2,11 +2,6 @@
 
 This repository contains a C program that allows you to create a doubly linked list of integers based on user input. It prompts the user to enter the number of desired elements for the linked list and then takes input for each element to construct the list. Finally, it prints out the created linked list and deallocates the memory.
 
-## Prerequisites
-
-- C compiler (gcc recommended)
-- Basic understanding of C programming language
-
 ## Getting Started
 
 1. **Clone the Repository:**
