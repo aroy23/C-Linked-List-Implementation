@@ -39,7 +39,6 @@ This repository contains a C program that allows you to create a doubly linked l
 The program consists of the following files:
 
 - `main.c`: Contains the main program logic.
-- `README.md`: This file, providing information about the program.
 
 ## Program Structure
 
